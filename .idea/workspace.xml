@@ -1,73 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22f13228-dde5-48f4-ba63-dfe68ff1220b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/springboot-microservices.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/discovery-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/discovery-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/discovery-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/discovery-server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/discovery-server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/discovery-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/discovery-server/src/main/java/io/javabrains/discoveryserver/DiscoveryServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/discovery-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/discovery-server/src/test/java/io/javabrains/discoveryserver/DiscoveryServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/java/io/javabrains/discoveryserver/DiscoveryServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/src/test/java/io/javabrains/discoveryserver/DiscoveryServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-catalog-service/movie-catalog-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-catalog-service/movie-catalog-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-catalog-service/movie-catalog-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-catalog-service/movie-catalog-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-catalog-service/movie-catalog-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-catalog-service/movie-catalog-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-catalog-service/movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/MovieCatalogServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-catalog-service/movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/models/CatalogItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-catalog-service/movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/models/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-catalog-service/movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/models/Rating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-catalog-service/movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/models/UserRating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-catalog-service/movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/resources/MovieCatalogResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-catalog-service/movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/service/MovieInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-catalog-service/movie-catalog-service/src/main/java/io/javabrains/moviecatalogservice/service/UserRatingInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-catalog-service/movie-catalog-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-catalog-service/movie-catalog-service/src/test/java/io/javabrains/moviecatalogservice/MovieCatalogServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-info-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-info-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-info-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-info-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-info-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-info-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-info-service/src/main/java/io/javabrains/movieinfoservice/MovieInfoServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-info-service/src/main/java/io/javabrains/movieinfoservice/models/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-info-service/src/main/java/io/javabrains/movieinfoservice/models/MovieSummary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-info-service/src/main/java/io/javabrains/movieinfoservice/resources/MovieResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-info-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-info-service/src/test/java/io/javabrains/movieinfoservice/MovieInfoServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings-data-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings-data-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings-data-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings-data-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings-data-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings-data-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings-data-service/src/main/java/io/javabrains/ratingsdataservice/RatingsDataServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings-data-service/src/main/java/io/javabrains/ratingsdataservice/models/Rating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings-data-service/src/main/java/io/javabrains/ratingsdataservice/models/UserRating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings-data-service/src/main/java/io/javabrains/ratingsdataservice/resources/RatingsResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings-data-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings-data-service/src/test/java/io/javabrains/ratingsdataservice/RatingsDataServiceApplicationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="22f13228-dde5-48f4-ba63-dfe68ff1220b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
